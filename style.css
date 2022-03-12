@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  color: #333;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(252, 244, 235);
+  /* font-family: "Lora", serif; */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  background-color: #333;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#nav-lists {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+a.active,
+a:hover {
+  border-bottom: 2px solid rgb(185, 143, 143);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+span {
+  margin-right: 5px;
+}
+
+.fa-bag-shopping {
+  color: rgb(247, 198, 144);
+}
+
+.first-section {
+  margin-top: 75px;
+  display: flex;
+  height: 100%;
+}
+
+.main-info {
+  flex: 1;
+  padding: 100px 0px 0px 50px;
+  position: relative;
+  width: 100%;
+}
+
+.main-info-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* padding: 30px; */
+  position: absolute;
+  top: 100px;
+  width: 70%;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.image {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.big-image {
+  width: 90%;
+  height: 610px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #333;
+  border: 3px solid black;
+}
+
+.second-section {
+  height: 100vh;
+  width: 90%;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.baby-images {
+  /* border: 2px solid red; */
+  flex-basis: 35%;
+  /* width: 380px; */
+  /* height: 450px; */
+  position: relative;
+}
+
+.images {
+  width: 100%;
+  /* position: relative; */
+}
+
+.sec-2-btn {
+  position: absolute;
+  bottom: -15px;
+  left: 90px;
+}
+
+.sec-2-btn:hover {
+  background-color: rgb(252, 244, 235);
+}
+
+.third-section {
+  display: flex;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+
+.third-sec-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padding-remove {
+  padding-left: 0px;
+}
+
+.fourth-section {
+  height: 100vh;
+  width: 90%;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.sec-4-h2 {
+  color: #333;
+  font-size: 2.7rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.gallery-images {
+  display: flex;
+  gap: 10px;
+  flex-basis: 20%;
+  margin-bottom: 30px;
+}
+
+.gallery-images img {
+  width: 100%;
+  height: 350px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 40px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1.1fr 1.1fr 2fr 2fr;
+  column-gap: 50px;
+}
+
+.footr-h4 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footr-p {
+  color: #fff;
+}
+
+#email {
+  padding: 15px 10px;
+  width: 350px;
+  background-color: rgb(180, 184, 189);
+  border: 0px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: rgb(24, 24, 24);
+  margin-bottom: 30px;
+}
+
+#submit {
+  font-size: 0.9rem;
+  padding: 15px 40px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 0px;
+}
+
+#submit:hover {
+  background-color: aliceblue;
+}
+
+.ftr-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iconn {
+  color: #fff;
+}
+
+.icon-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.footr-link {
+  padding: 0px;
+  border: 0px;
+  font-weight: normal;
+  font-size: 1.1rem;
+}
